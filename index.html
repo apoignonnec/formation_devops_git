@@ -10,6 +10,31 @@
 <body>
     <div class="container">
         <h1>Librairie de contrôle de carte bancaire</h1>
+
+        <div class="card-checker form-group">
+            <!-- Card number -->
+            <input class="card-number form-control" name="my-custom-form-field__card-number"
+                placeholder="Entrer votre numéro de carte" autocomplete="off" required>
+
+            <!-- Name on card -->
+            <input class="name form-control" id="the-card-name-id" name="my-custom-form-field__card-name"
+                placeholder="Entrer le nom sur votre carte" autocomplete="off" required>
+
+
+            <!-- Card expiry (element that is displayed) -->
+            <input class="expiry form-control" autocomplete="off" required>
+
+            <!-- Card expiry - Month (hidden) -->
+            <input class="expiry-month" name="my-custom-form-field__card-expiry-month">
+
+            <!-- Card expiry - Year (hidden) -->
+            <input class="expiry-year" name="my-custom-form-field__card-expiry-year">
+
+
+            <!-- Card CVC -->
+            <input class="cvc form-control" name="my-custom-form-field__card-cvc" autocomplete="off" required>
+        </div>
+    </div>
     </div>
 </body>
 </html>
